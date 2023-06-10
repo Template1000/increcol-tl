@@ -1,14 +1,10 @@
 import 'bootstrap/dist/css/bootstrap.css'
+import './assets/vendor/animate/animate.compat.css'
+import './assets/vendor/fontawesome-free/css/all.min.css'
 import './assets/vendor/owl.carousel/owl.carousel.min.css'
 import './assets/vendor/owl.carousel/owl.theme.default.min.css'
 
-import './assets/vendor/animate/animate.compat.css'
-import './assets/vendor/fontawesome-free/css/all.min.css'
-import './assets/vendor/magnific-popup/magnific-popup.min.css'
-
-import './assets/css/theme-blog.css'
 import './assets/css/theme-elements.css'
-import './assets/css/theme-shop.css'
 import './assets/css/theme.css'
 
 import './assets/css/demos/demo-business-consulting-3.css'

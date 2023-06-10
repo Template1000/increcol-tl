@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.css'
-import 'owl.carousel/dist/assets/owl.carousel.css'
-import 'owl.carousel/dist/assets/owl.theme.default.css'
+import './assets/vendor/owl.carousel/owl.carousel.min.css'
+import './assets/vendor/owl.carousel/owl.theme.default.min.css'
 
 import './assets/vendor/animate/animate.compat.css'
 import './assets/vendor/fontawesome-free/css/all.min.css'

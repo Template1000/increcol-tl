@@ -127,22 +127,11 @@ export default function Footer () {
                     data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}"
                   />
                   <Link
-                    href='mailto:porto@portotheme.com'
+                    href='mailto:info@intercreditosdecolombia.com'
                     className='text-color-light font-weight-semibold text-3-4 ms-2'
                   >
-                    porto@portotheme.com
+                    info@intercreditosdecolombia.com
                   </Link>
-                </li>
-                <li className='d-flex font-weight-semibold text-color-light px-0 mb-1'>
-                  <Image
-                    width={25}
-                    height={25}
-                    src='/img/demos/business-consulting-3/icons/map-pin.svg'
-                    alt='Location'
-                    data-icon=''
-                    data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light me-2'}"
-                  />
-                  1234 Street Name, New York, NY 10000, USA
                 </li>
               </ul>
             </div>

@@ -42,13 +42,16 @@ export default function page () {
                         <h2 className='font-weight-semibold text-6 mb-1'>
                           InterCréditos de Colombia
                         </h2>
-                        <p className='text-3-5 mb-0'>
-                          12345 Porto Blvd,
-                          <br />
-                          Suite 1500
-                          <br />
-                          Los Angeles, California 9000
+                        <p className='text-3-5 mb-0 text-center'>
+                          Qr WhatsApp Línea de atención
                         </p>
+                        <Image
+                          width={150}
+                          height={150}
+                          src='/img/demos/business-consulting-3/qrwa.png'
+                          alt='qr'
+                          className='mx-auto d-block'
+                        />
                       </div>
                     </div>
                   </div>
@@ -109,10 +112,10 @@ export default function page () {
                           data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
                         />
                         <Link
-                          href='mailto:contact@portotheme.com'
+                          href='mailto:info@intercreditosdecolombia.com'
                           className='text-color-dark text-color-hover-primary text-decoration-underline font-weight-semibold text-5-5 wb-all ms-2'
                         >
-                          contact@portotheme.com
+                          info@intercreditosdecolombia.com
                         </Link>
                       </div>
                     </div>

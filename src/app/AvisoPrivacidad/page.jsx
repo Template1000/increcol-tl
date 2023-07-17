@@ -14,7 +14,7 @@ export default function page () {
       >
        <div className='container py-4'>
           <div>Hola mundo</div>
-       </div>         
+       </div>
       </section>
       <Script src='/js/plugins/js/plugins.min.js' />
       <Script src='/js/theme.js' />

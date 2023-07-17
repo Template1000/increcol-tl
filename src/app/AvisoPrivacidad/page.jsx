@@ -12,11 +12,9 @@ export default function page () {
         data-bg-src='img/demos/business-consulting-3/backgrounds/background-6.jpg'
         style={{ backgroundSize: '100%', backgroundRepeat: 'no-repeat' }}
       >
-        <div className='container py-4'>
-          <div> 
-          Hola mundo
-           </div>
-            </div>
+       <div className='container py-4'>
+          <div> Hola mundo</div>
+       </div>         
       </section>
       <Script src='/js/plugins/js/plugins.min.js' />
       <Script src='/js/theme.js' />

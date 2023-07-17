@@ -5,6 +5,7 @@ import CoverPage from '@/app/components/Main/CoverPage/CoverPage'
 import HowDoes from '@/app/components/Main/HowDoes/HowDoes'
 import Services from '@/app/components/Main/Services/Services'
 import Skills from '@/app/components/Main/Skills/Skills'
+import Examples from '@/app/components/Main/Examples/Examples'
 import Team from '@/app/components/Main/Team/Team'
 import Testimonials from '@/app/components/Main/Testimonials/Testimonials'
 

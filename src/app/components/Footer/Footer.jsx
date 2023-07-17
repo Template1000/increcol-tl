@@ -53,7 +53,7 @@ export default function Footer () {
               <ul className='social-icons social-icons-clean social-icons-clean-with-border social-icons-medium social-icons-icon-light'>
                 <li className='social-icons-facebook'>
                   <Link
-                    href='http://www.facebook.com/'
+                    href='#'
                     target='_blank'
                     title='Facebook'
                     data-cursor-effect-hover='fit'

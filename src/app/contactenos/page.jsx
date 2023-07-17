@@ -202,6 +202,7 @@ export default function page () {
                         >
                           <span>Enviar Mensaje</span>
                         </button>
+                        <span><a href="https://www.intercreditosdecolombia.com/AvisoPrivacidad" target="blank"></a></span>
                       </div>
                     </div>
                   </form>

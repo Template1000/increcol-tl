@@ -13,7 +13,7 @@ export default function page () {
         style={{ backgroundSize: '100%', backgroundRepeat: 'no-repeat' }}
       >
        <div className='container py-4'>
-          <div> Hola mundo</div>
+          <div>Hola mundo</div>
        </div>         
       </section>
       <Script src='/js/plugins/js/plugins.min.js' />

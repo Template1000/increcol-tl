@@ -58,7 +58,7 @@ export default function Background () {
               >
               ¡Obtén créditos rápidos y seguros! Somos tu aliado confiable en finanzas. Contáctanos hoy mismo.  
                 </p>  {' '} 
-                <div className='font-weight-bold text-color-primary'> De 2’000.000 en adelante. Plazo de 6 a 72 meses. TAE del 2%</div>
+                <span className='font-weight-bold text-color-primary'> De 2’000.000 en adelante. Plazo de 6 a 72 meses. TAE del 2%</span>
              
               <Link
                 href='#aboutus'

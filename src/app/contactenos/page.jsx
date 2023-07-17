@@ -201,9 +201,9 @@ export default function page () {
                           data-cursor-effect-hover-color='light'
                         >
                           <span>Enviar Mensaje</span>
-                        </button>
-                        <span><a href="https://www.intercreditosdecolombia.com/AvisoPrivacidad" target="blank">Aviso de privacidad </a></span>
+                        </button>                        
                       </div>
+                      <span><a href="https://www.intercreditosdecolombia.com/AvisoPrivacidad" target="blank">Aviso de privacidad </a></span>
                     </div>
                   </form>
                 </div>

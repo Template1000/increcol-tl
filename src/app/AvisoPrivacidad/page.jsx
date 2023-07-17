@@ -1,3 +1,4 @@
+import Script from 'next/script'
 import ScriptLoader from '../components/ScriptLoader'
 import CoverContact from './components/CoverPrivacidad'
 

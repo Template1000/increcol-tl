@@ -56,10 +56,10 @@ export default function Background () {
                 data-appear-animation='fadeInUpShorter'
                 data-appear-animation-delay={750}
               >
-              ¡Obtén créditos rápidos y seguros! Somos tu aliado confiable en finanzas. Contáctanos hoy mismo. </p> {' '}
-              <p>
-                <span className='font-weight-bold text-color-primary'> De 2’000.000 en adelante. Plazo de 6 a 72 meses. TAE del 2%</span> {' '}
-               </p> 
+              ¡Obtén créditos rápidos y seguros! Somos tu aliado confiable en finanzas. Contáctanos hoy mismo.   {' '} 
+                </p> 
+                <div className='font-weight-bold text-color-primary'> De 2’000.000 en adelante. Plazo de 6 a 72 meses. TAE del 2%</div>
+             
               <Link
                 href='#aboutus'
                 data-hash=''

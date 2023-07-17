@@ -2,7 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import Script from 'next/script'
 import ScriptLoader from '../components/ScriptLoader'
-import CoverContact from './components/CoverContact'
+import CoverContact from './components/CoverPrivacidad'
 
 export default function page () {
   return (

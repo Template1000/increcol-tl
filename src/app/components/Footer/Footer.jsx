@@ -50,38 +50,7 @@ export default function Footer () {
               <p className='text-3-5'>
                 Descubre el éxito en línea con nuestra empresa de créditos: rapidez, confiabilidad y satisfacción garantizada.
               </p>
-              <ul className='social-icons social-icons-clean social-icons-clean-with-border social-icons-medium social-icons-icon-light'>
-                <li className='social-icons-facebook'>
-                  <Link
-                    href='#'
-                    target='_blank'
-                    title='Facebook'
-                    data-cursor-effect-hover='fit'
-                  >
-                    <i className='fab fa-facebook-f' />
-                  </Link>
-                </li>
-                <li className='social-icons-twitter mx-2'>
-                  <Link
-                    href='http://www.twitter.com/'
-                    target='_blank'
-                    title='Twitter'
-                    data-cursor-effect-hover='fit'
-                  >
-                    <i className='fab fa-twitter' />
-                  </Link>
-                </li>
-                <li className='social-icons-linkedin'>
-                  <Link
-                    href='http://www.linkedin.com/'
-                    target='_blank'
-                    title='Linkedin'
-                    data-cursor-effect-hover='fit'
-                  >
-                    <i className='fab fa-linkedin-in' />
-                  </Link>
-                </li>
-              </ul>
+
             </div>
             <div className='col-lg-3 mb-4 mb-lg-0'>
               <ul className='list list-icons list-icons-lg'>

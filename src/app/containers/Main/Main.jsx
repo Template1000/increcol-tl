@@ -18,6 +18,7 @@ export default function Main () {
         {/* Brands */}
         <Services />
         <Benefits />
+        <Examples />
         <Skills />
         <Team />
         <ContactMail />

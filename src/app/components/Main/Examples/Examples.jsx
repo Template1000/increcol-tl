@@ -9,25 +9,25 @@ export default function Examples () {
             </h2>
             <p className='text-3-5 pb-3 mb-4'>
             <ul>
-            <li>Monto 2'000.000</li>
+            <li>Monto 2&apos;000.000</li>
             <li> Plazo 12 meses </li>
             <li> Interés 0.3% </li>
-             <li>Pago total 2'119.992</li>
+             <li>Pago total 2&apos;119.992</li>
              <li>Cuotas de 176.600</li>
             </ul>
              <ul>
-             <li>Monto 100'000.000</li>
+             <li>Monto 100&apos;000.000</li>
             <li> Plazo 12 meses </li>
             <li> Interés 0.3%</li>
              <li>Pago total 100.560.790</li>
-             <li>Couta 8'373.300</li>
+             <li>Couta 8&apos;373.300</li>
             </ul>
             <ul>
-            <li> Monto 500'000.000</li>
+            <li> Monto 500&apos;000.000</li>
              <li>Plazo 12 meses </li>
             <li> Interés 0.3%</li>
-            <li> Pago total 500'534.500</li>
-            <li> Cuota de 41'706.600</li>
+            <li> Pago total 500&apos;534.500</li>
+            <li> Cuota de 41&apos;706.600</li>
             </ul>
          </p>
           </div>

@@ -1,6 +1,6 @@
-import FormContact from "./FormContact"
+import FormContact from './FormContact'
 
-export default function MailPage () {
+export default function MailPage() {
   return (
     <>
       <div
@@ -36,7 +36,7 @@ export default function MailPage () {
             >
               ¡Contáctanos hoy mismo y descubre cómo podemos ayudarte a alcanzar tus metas económicas!{' '}
             </p>
-            <FormContact/>
+            <FormContact />
           </div>
         </div>
       </div>

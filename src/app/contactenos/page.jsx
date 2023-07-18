@@ -3,9 +3,9 @@ import Link from 'next/link'
 import Script from 'next/script'
 import ScriptLoader from '../components/ScriptLoader'
 import CoverContact from './components/CoverContact'
-import FormContact from "./components/FormContact";
+import FormContact from './components/FormContact'
 
-export default function page () {
+export default function page() {
   return (
     <>
 
@@ -137,7 +137,7 @@ export default function page () {
                   <p className='text-3-5 font-weight-medium mb-4'>
                     ¡Contáctanos hoy mismo y descubre cómo podemos ayudarte a alcanzar tus metas económicas!
                   </p>
-                  <FormContact/>
+                  <FormContact />
                 </div>
               </div>
             </div>

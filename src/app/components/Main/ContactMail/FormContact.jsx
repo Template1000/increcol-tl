@@ -2,7 +2,7 @@
 import { useRef } from 'react'
 import { sendMail } from '@/app/services/api/send.mail'
 
-export default function FormContact() {
+export default function FormContact () {
   const formRef = useRef(null)
 
   const handleSubmit = (event) => {

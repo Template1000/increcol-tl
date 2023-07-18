@@ -5,7 +5,7 @@ import ScriptLoader from '../components/ScriptLoader'
 import CoverContact from './components/CoverContact'
 import FormContact from './components/FormContact'
 
-export default function page() {
+export default function page () {
   return (
     <>
 

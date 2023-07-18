@@ -1,6 +1,6 @@
 import FormContact from './FormContact'
 
-export default function MailPage() {
+export default function MailPage () {
   return (
     <>
       <div

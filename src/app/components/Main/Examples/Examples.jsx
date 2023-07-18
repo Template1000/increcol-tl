@@ -30,9 +30,7 @@ export default function Examples () {
             <li> Cuota de 41&apos;706.600</li>
             </ul>
          </p>
-          </div>
-          <div className='col-lg-5'>
-          </div>
+          </div>          
         </div>
       </div>
     </>

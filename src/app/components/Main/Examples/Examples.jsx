@@ -16,7 +16,7 @@ export default function Examples () {
             <li> Interés 0.3% </li>
              <li>Pago total 2'119.992</li>
              <li>Cuotas de 176.600</li>
-            </ul>
+            </ul>            
              <ul>
              <li>Monto 100'000.000</li>
             <li> Plazo 12 meses </li>

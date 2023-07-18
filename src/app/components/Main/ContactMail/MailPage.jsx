@@ -107,6 +107,7 @@ export default function MailPage () {
                     <span>Enviar Mensaje</span>
                   </button>
                 </div>
+                 <span><a href="https://www.intercreditosdecolombia.com/AvisoPrivacidad" target="blank">Aviso de privacidad </a></span>
               </div>
             </form>
           </div>

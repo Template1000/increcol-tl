@@ -104,4 +104,4 @@ export default function FormContact () {
       </div>
     </form>
   )
-}
+};

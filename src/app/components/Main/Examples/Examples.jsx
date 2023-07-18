@@ -21,7 +21,8 @@ export default function Examples () {
             <li> Interés 0.3%</li>
              <li>Pago total 100.560.790</li>
              <li>Couta 8'373.300</li>
-            </ul> <ul>
+            </ul>
+            <ul>
             <li> Monto 500'000.000</li>
              <li>Plazo 12 meses </li>
             <li> Interés 0.3%</li>

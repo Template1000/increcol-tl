@@ -1,5 +1,3 @@
-import Image from 'next/image'
-
 export default function Examples () {
   return (
     <>
@@ -23,14 +21,13 @@ export default function Examples () {
             <li> Interés 0.3%</li>
              <li>Pago total 100.560.790</li>
              <li>Couta 8'373.300</li>
-</ul> <ul>
+            </ul> <ul>
             <li> Monto 500'000.000</li>
              <li>Plazo 12 meses </li>
             <li> Interés 0.3%</li>
             <li> Pago total 500'534.500</li>
             <li> Cuota de 41'706.600</li>
             </ul>
-          
          </p>
           </div>
           <div className='col-lg-5'>

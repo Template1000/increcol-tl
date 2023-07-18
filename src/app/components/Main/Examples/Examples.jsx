@@ -5,7 +5,7 @@ export default function Examples () {
         <div className='row align-items-center py-4 my-5 mb-lg-0 my-xl-5'>
           <div className='col-lg-7 mb-5 mb-lg-0'>
             <h2 className='text-9 line-height-3 text-transform-none font-weight-semibold mb-4'>
-              Garantía que marca la diferencia en créditos
+             Ejemplos de préstamos
             </h2>
             <p className='text-3-5 pb-3 mb-4'>
             <ul>

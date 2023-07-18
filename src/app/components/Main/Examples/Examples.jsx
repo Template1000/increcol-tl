@@ -10,63 +10,31 @@ export default function Examples () {
               Garantía que marca la diferencia en créditos
             </h2>
             <p className='text-3-5 pb-3 mb-4'>
-              Con habilidades sobresalientes como eficiencia, claridad y flexibilidad, ofrecemos un servicio financiero de primera categoría. Confía en nosotros para lograr tus objetivos económicos con éxito.{' '}
-            </p>
-            <div className='progress-bars pb-4'>
-              <div className='progress-label d-flex justify-content-between'>
-                <span className='text-color-dark font-weight-semibold text-2'>
-                  RAPIDEZ EFICIENTE
-                </span>
-                <span className='text-color-dark font-weight-semibold text-2'>
-                  95%
-                </span>
-              </div>
-              <div className='progress progress-xs progress-no-border-radius bg-color-light-scale-1 mb-4'>
-                <div
-                  className='progress-bar progress-bar-primary'
-                  data-appear-progress-animation='95%'
-                />
-              </div>
-              <hr className='my-0' />
-              <div className='progress-label d-flex justify-content-between pt-2'>
-                <span className='text-color-dark font-weight-semibold text-2'>
-                  COMUNICACIÓN CLARA
-                </span>
-                <span className='text-color-dark font-weight-semibold text-2'>
-                  88%
-                </span>
-              </div>
-              <div className='progress progress-xs progress-no-border-radius bg-color-light-scale-1 mb-4'>
-                <div
-                  className='progress-bar progress-bar-primary'
-                  data-appear-progress-animation='85%'
-                />
-              </div>
-              <hr className='my-0' />
-              <div className='progress-label d-flex justify-content-between pt-2'>
-                <span className='text-color-dark font-weight-semibold text-2'>
-                  ADAPTABILIDAD FLEXIBLE
-                </span>
-                <span className='text-color-dark font-weight-semibold text-2'>
-                  50%
-                </span>
-              </div>
-              <div className='progress progress-xs progress-no-border-radius bg-color-light-scale-1 mb-4'>
-                <div
-                  className='progress-bar progress-bar-primary'
-                  data-appear-progress-animation='50%'
-                />
-              </div>
-            </div>
+            <ul>
+            <li>Monto 2'000.000</li>
+            <li> Plazo 12 meses </li>
+            <li> Interés 0.3% </li>
+             <li>Pago total 2'119.992</li>
+             <li>Cuotas de 176.600</li>
+            </ul>
+             <ul>
+             <li>Monto 100'000.000</li>
+            <li> Plazo 12 meses </li>
+            <li> Interés 0.3%</li>
+             <li>Pago total 100.560.790</li>
+             <li>Couta 8'373.300</li>
+</ul> <ul>
+            <li> Monto 500'000.000</li>
+             <li>Plazo 12 meses </li>
+            <li> Interés 0.3%</li>
+            <li> Pago total 500'534.500</li>
+            <li> Cuota de 41'706.600</li>
+            </ul>
+          
+         </p>
           </div>
           <div className='col-lg-5'>
-            <Image
-              width={483}
-              height={271}
-              src='/img/demos/business-consulting-3/generic/generic-4.jpg'
-              className='img-fluid'
-              alt=''
-            />
+           
           </div>
         </div>
       </div>

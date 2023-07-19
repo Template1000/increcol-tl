@@ -1,8 +1,10 @@
 'use client'
 import { useRef } from 'react'
 import { sendMail } from '@/app/services/api/send.mail'
+import { useRouter } from 'next/navigation'
 
 export default function FormContact () {
+  const router = useRouter()
   const formRef = useRef(null)
 
   const handleSubmit = (event) => {
@@ -14,8 +16,7 @@ export default function FormContact () {
       phone: formData.get('phone'),
       description: formData.get('message')
     }
-    console.log(data)
-    sendMail(data).then(response => console.log(response))
+    sendMail(data).then(response => router.push('/thank-you'))
       .catch(error => console.error(error))
   }
 

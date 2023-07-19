@@ -16,7 +16,7 @@ export default function FormContact () {
       phone: formData.get('phone'),
       description: formData.get('message')
     }
-    sendMail(data).then(response => router.push('/thank-you'))
+    sendMail(data).then(response => console.log(response)).then(response => router.push('/thank-you'))
       .catch(error => console.error(error))
   }
 
@@ -27,7 +27,6 @@ export default function FormContact () {
       className='contact-form form-style-4 form-placeholders-light form-errors-light appear-animation'
       data-appear-animation='fadeInUpShorter'
       data-appear-animation-delay={1000}
-      action='php/contact-form.php'
       method='POST'
     >
       <div className='contact-form-success alert alert-success d-none mt-4'>

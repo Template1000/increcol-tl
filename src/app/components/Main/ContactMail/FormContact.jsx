@@ -16,7 +16,7 @@ export default function FormContact () {
       phone: formData.get('phone'),
       description: formData.get('message')
     }
-    sendMail(data).then(response => console.log(response)).then(response => router.push('/thank-you'))
+    sendMail(data).then(response => router.push('/thank-you'))
       .catch(error => console.error(error))
   }
 

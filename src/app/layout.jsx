@@ -13,6 +13,7 @@ import './assets/css/skins/skin-business-consulting-3.css'
 import Footer from './components/Footer/Footer'
 import WhatsappButton from './components/WhatsappButton'
 import Header from './containers/Header/Header'
+import GoogleAnalytics from './components/Gtag'
 
 export const metadata = {
   title: 'InterCréditos de Colombia | Financiera Online a Tú Alcancé',
@@ -27,6 +28,7 @@ export const metadata = {
 export default function RootLayout ({ children }) {
   return (
     <html lang="en">
+      <GoogleAnalytics GA_TRACKING_ID={process.env.NEXT_PUBLIC_GA_TRACKING_ID} />
       <body>
         <Header />
         {children}

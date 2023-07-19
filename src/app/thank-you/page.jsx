@@ -1,6 +1,7 @@
 import Script from 'next/script'
 import ScriptLoader from '../components/ScriptLoader'
 import CoverPage from './components/CoverPage'
+import GoogleEvent from '../components/GEvent'
 
 export default function page () {
   return (
@@ -19,6 +20,7 @@ export default function page () {
           </div>
         </div>
       </section>
+      <GoogleEvent GA_TRACKING_ID={process.env.NEXT_PUBLIC_GA_TRACKING_ID} />
       <Script src='/js/plugins/js/plugins.min.js' />
       <Script src='/js/theme.js' />
       <ScriptLoader src='/js/theme.js' />

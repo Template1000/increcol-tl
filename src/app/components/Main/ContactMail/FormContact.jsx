@@ -14,7 +14,9 @@ export default function FormContact () {
       phone: formData.get('phone'),
       description: formData.get('message')
     }
+    console.log(data)
     sendMail(data).then(response => console.log(response))
+      .catch(error => console.error(error))
   }
 
   return (

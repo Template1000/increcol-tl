@@ -96,10 +96,10 @@ export default function Footer () {
                     data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}"
                   />
                   <Link
-                    href='mailto:info@intercreditosdecolombia.com'
+                    href={`mailto:${process.env.NEXT_PUBLIC_EMAIL_CORP}`}
                     className='text-color-light font-weight-semibold text-3-4 ms-2'
                   >
-                    info@intercreditosdecolombia.com
+                    {process.env.NEXT_PUBLIC_EMAIL_CORP}
                   </Link>
                 </li>
               </ul>

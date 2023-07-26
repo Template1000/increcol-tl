@@ -113,10 +113,10 @@ export default function page () {
                           data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
                         />
                         <Link
-                          href='mailto:info@intercreditosdecolombia.com'
+                          href={`mailto:${process.env.NEXT_PUBLIC_EMAIL_CORP}`}
                           className='text-color-dark text-color-hover-primary text-decoration-underline font-weight-semibold text-5-5 wb-all ms-2'
                         >
-                          info@intercreditosdecolombia.com
+                          {process.env.NEXT_PUBLIC_EMAIL_CORP}
                         </Link>
                       </div>
                     </div>

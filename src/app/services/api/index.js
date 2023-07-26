@@ -1,6 +1,8 @@
+const API = process.env.NEXT_PUBLIC_API_URL
+
 const endPoints = {
   mail: {
-    send: 'https://app.intercreditosdecolombia.com/api/v1/mail/send'
+    send: `${API}/api/v1/mail/send`
   }
 }
 

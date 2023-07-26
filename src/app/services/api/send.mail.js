@@ -1,4 +1,5 @@
 import axios from 'axios'
+import endPoints from '.'
 
 const sendMail = async (body) => {
   const config = {
@@ -7,7 +8,7 @@ const sendMail = async (body) => {
       'Content-type': 'application/json'
     }
   }
-  const response = await axios.post('https://app.intercreditosdecolombia.com/api/v1/mail/send', body, config)
+  const response = await axios.post(endPoints.mail.send, body, config)
   return response.data
 }
 

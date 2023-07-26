@@ -10,6 +10,8 @@ import './assets/css/theme.css'
 import './assets/css/demos/demo-business-consulting-3.css'
 import './assets/css/skins/skin-business-consulting-3.css'
 
+import 'react-toastify/dist/ReactToastify.min.css'
+
 import Footer from './components/Footer/Footer'
 import WhatsappButton from './components/WhatsappButton'
 import Header from './containers/Header/Header'

@@ -2,6 +2,7 @@
 import { useRef } from 'react'
 import { sendMail } from '@/app/services/api/send.mail'
 import { useRouter } from 'next/navigation'
+import { ToastContainer, toast } from 'react-toastify'
 
 export default function FormContact () {
   const router = useRouter()
@@ -16,8 +17,79 @@ export default function FormContact () {
       phone: formData.get('phone'),
       description: formData.get('message')
     }
-    sendMail(data).then(response => router.push('/thank-you'))
-      .catch(error => console.error(error))
+    sendMail(data)
+      .then(response => {
+        toast.success('¡Correcto, mensaje enviado!', {
+          position: 'top-right',
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: true,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: 'colored'
+        })
+      })
+      .then(response => router.push('/thank-you'))
+      .catch(error => {
+        const textError = error.response.data.message
+        const textName = '"name"'
+        const textEmail = '"email"'
+        const textPhone = '"phone"'
+        const textDescription = '"description"'
+
+        if (textError.includes(textName)) {
+          toast.error('Error, por favor valide el campo nombre.', {
+            position: 'top-right',
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: 'colored'
+          })
+        }
+
+        if (textError.includes(textEmail)) {
+          toast.error('Error, por favor valide el campo correo.', {
+            position: 'top-right',
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: 'colored'
+          })
+        }
+
+        if (textError.includes(textPhone)) {
+          toast.error('Error, por favor valide el campo número celular.', {
+            position: 'top-right',
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: 'colored'
+          })
+        }
+
+        if (textError.includes(textDescription)) {
+          toast.error('Error, por favor valide el campo mensaje.', {
+            position: 'top-right',
+            autoClose: 5000,
+            hideProgressBar: false,
+            closeOnClick: true,
+            pauseOnHover: true,
+            draggable: true,
+            progress: undefined,
+            theme: 'colored'
+          })
+        }
+      })
   }
 
   return (
@@ -110,6 +182,7 @@ export default function FormContact () {
         </div>
         <span><a href="https://www.intercreditosdecolombia.com/AvisoPrivacidad" target="blank">Aviso de privacidad </a></span>
       </div>
+      <ToastContainer />
     </form>
   )
 };

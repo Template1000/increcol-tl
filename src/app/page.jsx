@@ -1,6 +1,6 @@
 import Script from 'next/script'
 import Main from './containers/Main/Main'
-import ScriptLoader from './components/ScriptLoader'
+// import ScriptLoader from './components/ScriptLoader'
 
 export default function Home () {
   return (

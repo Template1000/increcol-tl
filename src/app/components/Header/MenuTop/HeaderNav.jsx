@@ -20,11 +20,11 @@ export default function HeaderNav () {
               </span>
               <Link
                 className='text-color-light text-decoration-none font-weight-semibold text-3-5 ms-2'
-                href='tel:+573229338850'
+                href='tel:+573222695802'
                 data-cursor-effect-hover='plus'
                 data-cursor-effect-hover-color='light'
               >
-                (322) 933-8850
+                (322) 269-5802
               </Link>
             </span>
             <span className='font-weight-normal align-items-center px-0 d-none d-xl-flex ms-3'>
@@ -40,11 +40,11 @@ export default function HeaderNav () {
               </span>
               <Link
                 className='text-color-light text-decoration-none font-weight-semibold text-3-5 ms-2'
-                href='tel:+573229338851'
+                href='tel:+573222695807'
                 data-cursor-effect-hover='plus'
                 data-cursor-effect-hover-color='light'
               >
-                (322) 933-8851
+                (322) 269-5807
               </Link>
             </span>
           </li>

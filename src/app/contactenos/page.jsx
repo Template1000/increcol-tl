@@ -71,10 +71,10 @@ export default function page () {
                           data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
                         />
                         <Link
-                          href='tel:+573229338850'
+                          href='tel:+573222695802'
                           className='text-color-dark text-color-hover-primary font-weight-semibold text-decoration-none text-6 ms-2'
                         >
-                          322-933-8850
+                          322-269-5802
                         </Link>
                       </div>
                     </div>
@@ -92,10 +92,10 @@ export default function page () {
                           data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-primary'}"
                         />
                         <Link
-                          href='tel:+573229338850'
+                          href='tel:+573222695807'
                           className='text-color-dark text-color-hover-primary font-weight-semibold text-decoration-none text-6 ms-2'
                         >
-                          322-933-8850
+                          322-269-5807
                         </Link>
                       </div>
                     </div>

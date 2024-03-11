@@ -64,10 +64,10 @@ export default function Footer () {
                     data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}"
                   />
                   <Link
-                    href='tel:+573229338850'
+                    href='tel:+573222695802'
                     className='text-color-light font-weight-semibold text-3-4 ms-2'
                   >
-                    (322) 933-8850
+                    (322) 269-5802
                   </Link>
                 </li>
                 <li className='d-flex px-0 mb-1'>
@@ -80,10 +80,10 @@ export default function Footer () {
                     data-plugin-options="{'onlySVG': true, 'extraClass': 'svg-fill-color-light'}"
                   />
                   <Link
-                    href='tel:+573229338851'
+                    href='tel:+573222695807'
                     className='text-color-light font-weight-semibold text-3-4 ms-2'
                   >
-                    (322) 933-8851
+                    (322) 269-5807
                   </Link>
                 </li>
                 <li className='d-flex px-0 my-3'>

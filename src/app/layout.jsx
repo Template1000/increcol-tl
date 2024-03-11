@@ -18,7 +18,7 @@ import Header from './containers/Header/Header'
 import GoogleAnalytics from './components/Gtag'
 
 export const metadata = {
-  title: 'InterCréditos de Colombia | Financiera Online a Tú Alcancé',
+  title: 'Inter Financiera | Financiera Online a Tú Alcancé',
   description: 'Descubre la solución financiera perfecta para tus necesidades con nuestros préstamos rápidos y confiables. ¡Obtén el dinero que necesitas ahora!',
   viewport: {
     width: 'device-width',

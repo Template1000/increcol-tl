@@ -175,7 +175,7 @@ export default function Form () {
             <span>Enviar Mensaje</span>
           </button>
         </div>
-        <span><a href="https://www.intercreditoscolombia.com/AvisoPrivacidad" target="blank">Aviso de privacidad </a></span>
+        <span><a href="https://www.interfinanciera.com/AvisoPrivacidad" target="blank">Aviso de privacidad </a></span>
       </div>
       <ToastContainer />
     </form>

@@ -18,7 +18,7 @@ export default function Footer () {
           <div className='row justify-content-between align-items-center py-5 mb-3'>
             <div className='col-auto mb-4 mb-lg-0'>
               <h2 className='font-weight-semibold text-color-light text-10 ls-0 mb-0'>
-                INTERCRÉDITOS DE COLOMBIA
+                INTER FINANCIERA
               </h2>
             </div>
             <div className='col-auto'>

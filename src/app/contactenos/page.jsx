@@ -41,7 +41,7 @@ export default function page () {
                       />
                       <div className='text-center text-md-start ps-md-3'>
                         <h2 className='font-weight-semibold text-6 mb-1'>
-                          InterCréditos de Colombia
+                          INTER FINANCIERA
                         </h2>
                         <p className='text-3-5 mb-0 text-center'>
                           Qr WhatsApp Línea de atención

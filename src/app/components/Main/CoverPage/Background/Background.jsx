@@ -34,7 +34,7 @@ export default function Background () {
                 'url(img/demos/business-consulting-3/backgrounds/text-background.jpg)'
                   }}
                 >
-                  CRÉDITOS A TU ALCANCE
+                  INTER FINANCIERA
                 </h1>
               </div>
             </div>
@@ -58,7 +58,7 @@ export default function Background () {
               >
                 ¡Obtén créditos rápidos y seguros! Somos tu aliado confiable en finanzas. Contáctanos hoy mismo.{' '}
               </p>
-              <span className='font-weight-bold text-color-primary'> De 2’000.000 en adelante. Plazo de 6 a 72 meses. TAE del 2%</span>
+              <span className='font-weight-bold text-color-primary'> TAE del 6,5% ANUAL <br /> Préstamos de $2.000.000 a $900.000.000 <br /> Plazo de financiación de 12 meses a 180 meses <br /> </span>
               <Link
                 href='#aboutus'
                 data-hash=''

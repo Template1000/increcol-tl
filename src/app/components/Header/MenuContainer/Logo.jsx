@@ -8,7 +8,7 @@ export default function Logo () {
         <div className='header-row'>
           <div className='header-logo'>
             <Link href='/'>
-              <Image alt='Porto' width={162} height={33} src='/img/demos/business-consulting-3/logo.png' />
+              <Image alt='Porto' width={246} height={55} src='/img/demos/business-consulting-3/logo.png' />
             </Link>
           </div>
         </div>

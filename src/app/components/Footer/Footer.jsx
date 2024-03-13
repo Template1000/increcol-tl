@@ -40,10 +40,10 @@ export default function Footer () {
                 className='text-decoration-none'
               >
                 <Image
-                  src='/img/demos/business-consulting-3/logo-footer.png'
+                  src='/img/demos/business-consulting-3/logo.png'
                   className='img-fluid mb-4'
-                  width={123}
-                  height={33}
+                  width={246}
+                  height={55}
                   alt=''
                 />
               </Link>
